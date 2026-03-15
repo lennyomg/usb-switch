@@ -3,9 +3,12 @@ fp-info-cache
 *.lck
 *-bak
 **/*-backups/*
+**/*autosave*
+**/*auto_save*
 
 #MacOS
 .DS_Store
 
 #Misc
 *.zip
+

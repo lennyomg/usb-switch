@@ -3021,7 +3021,7 @@
 	)
 	(text "For LM3526-L: OFF is EN ≥ 2.4V and ON is EN ≤ 0.8V\nFor LM3526-H: OFF is EN ≤ 0.8V and ON is EN ≥ 2.4V"
 		(exclude_from_sim yes)
-		(at 121.92 19.05 0)
+		(at 101.6 20.32 0)
 		(effects
 			(font
 				(face "Monaco")
@@ -3031,7 +3031,7 @@
 		)
 		(uuid "a674de0d-c755-474a-884f-2259d6359e5a")
 	)
-	(text "TS3USB30\nS OE FUNCTION\nX H  Disconnect\nL L  D = D1\nH L  D = D2"
+	(text "TS3USB30\nS OE FUNCTION\nX H  Disconnect\nL L  D = D1 (A)\nH L  D = D2 (B)"
 		(exclude_from_sim yes)
 		(at 154.94 163.83 0)
 		(effects

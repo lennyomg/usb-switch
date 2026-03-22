@@ -4744,7 +4744,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 76.2 172.72 90)
 			(effects
 				(font
@@ -6466,7 +6466,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 76.2 165.1 90)
 			(effects
 				(font
@@ -7380,6 +7380,15 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
+			(at 264.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buy" "https://www.digikey.com/en/products/detail/stewart-connector/SS-52100-001/7902377"
 			(at 264.16 119.38 0)
 			(effects
 				(font
@@ -8467,6 +8476,15 @@
 				(hide yes)
 			)
 		)
+		(property "Buy" "https://www.digikey.com/en/products/detail/stewart-connector/SS-52100-001/7902377"
+			(at 33.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "265efd6c-cc1a-4098-bf40-43f603a9f0c6")
 		)
@@ -8739,6 +8757,15 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
+			(at 265.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Buy" "https://www.digikey.com/en/products/detail/stewart-connector/SS-52100-001/7902377"
 			(at 265.43 53.34 0)
 			(effects
 				(font

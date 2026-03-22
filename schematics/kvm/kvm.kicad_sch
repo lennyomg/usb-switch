@@ -5,8 +5,11 @@
 	(uuid "cc44720a-6cf8-4c9b-bc7b-e264add30336")
 	(paper "A4")
 	(title_block
-		(title "KVM RF USB SWITCH")
+		(title "USB SWITCH")
+		(date "2026-03-15")
+		(rev "1")
 		(company "Leonid R.")
+		(comment 1 "https://github.com/lennyomg/usb-switch")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

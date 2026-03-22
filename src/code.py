@@ -88,8 +88,6 @@ def switch_to_b():
 state = 0
 last_change = time.monotonic()
 
-beep(880, 0.1)
-
 try:
     with open("/state.txt", "r") as f:
         state = int(f.read())

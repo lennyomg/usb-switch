@@ -14,7 +14,7 @@ This device is unidirectional; it cannot switch one USB peripheral between two U
 * _src_ - source code for the controller
 * _schematics_ - KiCad project for the board
 
-Check [Releases](releases/latest) for Gerber files, BOM, schematic PDFs, etc.
+Check [Releases](https://github.com/lennyomg/usb-switch/releases/latest) for Gerber files, BOM, schematic PDFs, etc.
 
 ### Details
 

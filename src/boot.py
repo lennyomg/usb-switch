@@ -2,8 +2,11 @@ import board
 import digitalio
 import storage
 
-neopixel_pwd = digitalio.DigitalInOut(board.NEOPIXEL_POWER)
-neopixel_pwd.switch_to_output(value=False)
+try:
+    neopixel_pwd = digitalio.DigitalInOut(board.NEOPIXEL_POWER)
+    neopixel_pwd.switch_to_output(value=False)
+except AttributeError:
+    pass        
 
 storage.remount("/", readonly=False)
 

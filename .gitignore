@@ -5,10 +5,19 @@ fp-info-cache
 **/*-backups/*
 **/*autosave*
 **/*auto_save*
+*.gbr*
+*.drl
 
 #MacOS
 .DS_Store
 
+#Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
 #Misc
 *.zip
-
+kvm.csv

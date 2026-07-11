@@ -416,7 +416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2313/LMK212AC6106MD-T_SS.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -427,7 +427,7 @@
 				)
 			)
 		)
-		(property "Description" "LMK212AC6106MD-T"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -593,6 +593,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a788bd86-0c7f-4afa-9ed3-69c1a58ab974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "150080VS75000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74e8bfd-246d-4df0-b13a-523f3737d145")
 			(effects
 				(font
 					(size 1 1)
@@ -945,19 +958,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy" "https://www.amazon.com/dp/B09P89RF8R"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "100c904e-c67f-4292-822f-1ee7a8e68704")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1350,7 +1350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2313/LMK212AC6106MD-T_SS.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1361,7 +1361,7 @@
 				)
 			)
 		)
-		(property "Description" "LMK212AC6106MD-T"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1971,19 +1971,6 @@
 				)
 			)
 		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/onsemi/ESD5Z3-3T1G/1476607"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01609065-28e3-46d4-b3cc-cae87baf10c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "ESD5Z3.3T1G"
 			(at 0 0 0)
 			(unlocked yes)
@@ -2425,19 +2412,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/stewart-connector/SS-52100-001/7902377"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49712382-3421-481c-9cab-a13cfd483d2c")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3184,19 +3158,6 @@
 				)
 			)
 		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/stmicroelectronics/USB6B1RL/654663"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e3b43b99-c7cc-4f85-b694-1260479fed5f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "USB6B1RL"
 			(at 0 0 90)
 			(unlocked yes)
@@ -3582,19 +3543,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/stmicroelectronics/USB6B1RL/654663"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e5c8c5c8-500d-4448-852c-b206af40609e")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4319,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2313/LMK212AC6106MD-T_SS.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4330,7 +4278,7 @@
 				)
 			)
 		)
-		(property "Description" "LMK212AC6106MD-T"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4644,19 +4592,6 @@
 				)
 			)
 		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/SMF5V0A-E3-08/1680585"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c659d3ee-2879-4dfd-a4a1-22157e362b57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "SMF5V0A-E3-08"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4904,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite"
+		(property "Value" "0"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4927,7 +4862,7 @@
 				)
 			)
 		)
-		(property "Description" "≥ 1 A low DCR (≤ 0.1 Ω) 120–600 Ω @ 100 MHz"
+		(property "Description" "0 ohm link"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4938,20 +4873,7 @@
 				)
 			)
 		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/laird-signal-integrity-products/MI0805M221R-10/806631"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d192023e-fcff-493f-8a12-00d115532645")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "MI0805M221R-10"
+		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4964,7 +4886,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
+		(property ki_fp_filters "R_*")
 		(path "/44035fd8-9c1e-42b0-8086-7a36c15703c5")
 		(sheetname "/")
 		(sheetfile "kvm.kicad_sch")
@@ -5091,7 +5013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2313/LMK212AC6106MD-T_SS.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5102,7 +5024,7 @@
 				)
 			)
 		)
-		(property "Description" "LMK212AC6106MD-T"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5261,19 +5183,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CPT-9019A-SMT-TR/19105220"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b73c333c-0fa2-48c8-8681-34b5f0e52af5")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5811,6 +5720,19 @@
 				)
 			)
 		)
+		(property "MPN" "150080VS75000"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27671ef5-fb08-4988-adb6-fa085e22ed8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a4d47227-2535-4b7f-8013-c2665a7707a0")
 		(sheetname "/")
@@ -6310,19 +6232,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/stewart-connector/SS-52100-001/7902377"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc944499-a595-42c6-8dac-598e2029a318")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7069,19 +6978,6 @@
 				)
 			)
 		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/stmicroelectronics/USB6B1RL/654663"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bf7df03-2ca5-44a3-b601-620bb502d6e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "USB6B1RL"
 			(at 0 0 270)
 			(unlocked yes)
@@ -7681,7 +7577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2313/LMK212AC6106MD-T_SS.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7692,7 +7588,7 @@
 				)
 			)
 		)
-		(property "Description" "LMK212AC6106MD-T"
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7819,7 +7715,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite"
+		(property "Value" "0"
 			(at -3.57375 2.97 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7842,7 +7738,7 @@
 				)
 			)
 		)
-		(property "Description" "≥ 1 A low DCR (≤ 0.1 Ω) 120–600 Ω @ 100 MHz"
+		(property "Description" "0 ohm link"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7853,20 +7749,7 @@
 				)
 			)
 		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/laird-signal-integrity-products/MI0805M221R-10/806631"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3208d872-6f04-4ab2-9bd1-95a918b967d7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "MI0805M221R-10"
+		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7879,7 +7762,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
+		(property ki_fp_filters "R_*")
 		(path "/2a4a18e1-4341-4707-ba07-92594399443b")
 		(sheetname "/")
 		(sheetfile "kvm.kicad_sch")
@@ -8027,19 +7910,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/texas-instruments/LM3526M-H-NOPB/363943"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6c0a504-b30b-4a3d-a61e-cbf5b3648b04")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8431,19 +8301,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy" "https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80be7320-4d30-4875-a37e-e7028851e929")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -9371,19 +9228,6 @@
 				)
 			)
 		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/stewart-connector/SS-52100-001/7902377"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d14f172-4f03-4155-8c48-d2b1fd6cad96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "SS-52100-001"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9971,19 +9815,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Buy" "https://www.digikey.com/en/products/detail/texas-instruments/TS3USB30EDGSR/2193086"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f18ff64-d299-4b25-b3e9-98ed8979565c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)

@@ -1586,171 +1586,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -4004,6 +3839,17 @@
 			(justify left)
 		)
 		(uuid "a674de0d-c755-474a-884f-2259d6359e5a")
+	)
+	(text "FB1 and FB2 ferrite beads were replaced\nwith 0 Ω links during assembly due to power issues."
+		(exclude_from_sim no)
+		(at 199.898 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcb470f3-8754-47f7-90c3-271148907ad1")
 	)
 	(text "TS3USB30\nS OE FUNCTION\nX H  Disconnect\nL L  D = D1 (A)\nH L  D = D2 (B)"
 		(exclude_from_sim yes)
@@ -6988,7 +6834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
+		(lib_id "Device:R")
 		(at 240.03 132.08 270)
 		(unit 1)
 		(body_style 1)
@@ -7008,7 +6854,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite"
+		(property "Value" "0"
 			(at 234.95 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7040,7 +6886,7 @@
 				)
 			)
 		)
-		(property "Description" "≥ 1 A low DCR (≤ 0.1 Ω) 120–600 Ω @ 100 MHz"
+		(property "Description" "0 ohm link"
 			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7051,7 +6897,7 @@
 				)
 			)
 		)
-		(property "MPN" "MI0805M221R-10"
+		(property "MPN" ""
 			(at 240.03 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -7799,7 +7645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
+		(lib_id "Device:R")
 		(at 237.49 68.58 270)
 		(unit 1)
 		(body_style 1)
@@ -7819,7 +7665,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite"
+		(property "Value" "0"
 			(at 231.14 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +7697,7 @@
 				)
 			)
 		)
-		(property "Description" "≥ 1 A low DCR (≤ 0.1 Ω) 120–600 Ω @ 100 MHz"
+		(property "Description" "0 ohm link"
 			(at 237.49 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7862,7 +7708,7 @@
 				)
 			)
 		)
-		(property "MPN" "MI0805M221R-10"
+		(property "MPN" ""
 			(at 237.49 68.58 90)
 			(hide yes)
 			(show_name no)

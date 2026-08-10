@@ -2868,7 +2868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e10db3f-972e-4fbd-a27e-ebc4656d4c7a")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 90.932 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,7 +2912,7 @@
 				)
 			)
 		)
-		(property "Description" "LED, yellow or red"
+		(property "Description" "LED, red"
 			(at 91.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2934,7 +2934,7 @@
 				)
 			)
 		)
-		(property "MPN" "150080YS75000"
+		(property "MPN" "150080SS75000"
 			(at 91.44 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -2945,7 +2945,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "732-4987-1-ND"
+		(property "DigiKey" "732-4985-1-ND"
 			(at 91.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2976,7 +2976,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/e128c5d0-2c62-45f6-9957-c33703f40487"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3318,7 +3318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d1cf8fa-620a-436d-a034-9c4f40470362")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 143.1133 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,7 +3452,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/e128c5d0-2c62-45f6-9957-c33703f40487"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3512,7 +3512,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Transient Voltage Suppressor"
 			(at 48.26 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3660,7 +3660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67fcefba-5a67-44b6-8fda-d60034996f1f")
-		(property "Reference" "R18"
+		(property "Reference" "R5"
 			(at 78.486 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3702,7 @@
 				)
 			)
 		)
-		(property "Description" "If testing shows false button events with the external long wire: populate the 10/22/47 kΩ resistor."
+		(property "Description" "10 kΩ ±5%"
 			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3733,7 +3733,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/e128c5d0-2c62-45f6-9957-c33703f40487"
-					(reference "R18")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3793,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2.54 mm pin header"
 			(at 220.98 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3871,7 +3871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b576b9e-8962-4027-9a64-70078bbf96bc")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 72.39 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3915,7 +3915,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100 Ω ±5%"
 			(at 69.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3946,7 +3946,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/e128c5d0-2c62-45f6-9957-c33703f40487"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4199,7 +4199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a6fde53-2082-48a7-ba01-c0f9b25abfd1")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 49.53 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4272,7 +4272,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/e128c5d0-2c62-45f6-9957-c33703f40487"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a300da0b-4ef5-4bee-9d0a-7653571e9db1")
-		(property "Reference" "R8"
+		(property "Reference" "R14"
 			(at 65.532 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4333,7 +4333,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "1 kΩ ±5%"
 			(at 64.77 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4364,7 +4364,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/e128c5d0-2c62-45f6-9957-c33703f40487"
-					(reference "R8")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4581,7 @@
 				)
 			)
 		)
-		(property "Description" "Piezo buzzer transducer"
+		(property "Description" "Piezo buzzer transducer, NOT magnetic"
 			(at 72.39 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4651,7 +4651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9ad98de-cbb2-48e5-9bdb-1ac0ccd3a704")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 98.806 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4693,7 +4693,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "2 kΩ ±5%"
 			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4724,7 +4724,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/e128c5d0-2c62-45f6-9957-c33703f40487"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5020,7 +5020,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "UPDI pad"
 			(at 162.56 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5131,7 +5131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e96b5b5f-5a62-49b9-996b-9bb343157a03")
-		(property "Reference" "C11"
+		(property "Reference" "C1"
 			(at 136.398 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5173,7 +5173,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF, 16 V, X5R/X7R, 0603"
 			(at 137.16 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5204,7 +5204,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/e128c5d0-2c62-45f6-9957-c33703f40487"
-					(reference "C11")
+					(reference "C1")
 					(unit 1)
 				)
 			)

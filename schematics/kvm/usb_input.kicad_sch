@@ -2751,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+		(property "Description" "Transient Voltage Suppressor"
 			(at 151.13 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2822,7 +2822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "977f246e-582a-4bc7-b3f9-7c01cb5093b0")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 151.13 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +2864,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 µF, 0603, 10–16 V X5R/X7R"
 			(at 151.13 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2895,7 +2895,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/84212430-6f85-40d9-bfd3-bfe2b55d6f2f"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2913,7 +2913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0c42815-7c0e-4a91-ac62-d63eb483cc88")
-		(property "Reference" "U10"
+		(property "Reference" "U2"
 			(at 174.3711 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3025,7 +3025,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/84212430-6f85-40d9-bfd3-bfe2b55d6f2f"
-					(reference "U10")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3275,7 +3275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1f6b82a-7fd9-488c-b630-98d0a66174b3")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 159.004 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3317,7 +3317,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "5.1 kΩ ±1%"
 			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3348,7 +3348,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/84212430-6f85-40d9-bfd3-bfe2b55d6f2f"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3366,7 +3366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6cc8f9e-016c-4b85-9541-ff8f2bda5ded")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 92.71 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3410,7 +3410,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "5.1 kΩ ±1%"
 			(at 90.17 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3441,7 +3441,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336/84212430-6f85-40d9-bfd3-bfe2b55d6f2f"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)

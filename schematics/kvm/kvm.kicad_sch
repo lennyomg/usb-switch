@@ -3030,7 +3030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01334128-86af-4d08-b3ab-929f9eaf36e7")
-		(property "Reference" "C12"
+		(property "Reference" "C2"
 			(at 205.232 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3072,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF or 2.2 µF, X7R, 10 V"
+		(property "Description" "1 µF, 0603, 6.3 V or 10 V, X5R/X7R"
 			(at 210.82 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3103,7 +3103,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "C12")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3121,7 +3121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02682e62-da02-421f-952c-ae4096c937c4")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 132.08 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3163,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 nF, 50 V, X5R/X7R, 0603"
 			(at 132.08 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3194,7 +3194,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3368,7 +3368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11b638ce-d20f-44e9-8e6a-0175efe32ea2")
-		(property "Reference" "R17"
+		(property "Reference" "R7"
 			(at 43.688 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3379,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.3k"
 			(at 43.688 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3412,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "4.3 kΩ ±5%"
 			(at 45.72 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3443,7 +3443,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "R17")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16094fa7-c6fa-4213-b1e1-d53ba933f3d0")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 100.33 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,7 +3505,7 @@
 				)
 			)
 		)
-		(property "Description" "CH340X, USB serial converter, 5V-tolerant IO, UART, MSOP-10"
+		(property "Description" "USB serial converter, 5V-tolerant IO, UART, MSOP-10"
 			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3582,7 +3582,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3599,7 +3599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16acbc98-0293-470f-8321-73577653efd8")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 238.252 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kΩ ±5%"
 			(at 233.68 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3674,7 +3674,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3770,7 +3770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "369982cc-eea0-4f7d-b7ad-e4a08135492b")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 129.286 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3781,7 +3781,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.3k"
 			(at 129.794 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3814,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "4.3 kΩ ±5%"
 			(at 128.27 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3863,7 +3863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "377e8826-abc6-4a6f-b5ed-60b1441523e4")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 87.63 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,7 +3966,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3983,7 +3983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37db4abe-1bd2-4026-b307-f3b8bf113486")
-		(property "Reference" "R16"
+		(property "Reference" "R6"
 			(at 117.348 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3994,7 +3994,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.3k"
 			(at 117.348 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4027,7 +4027,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "4.3 kΩ ±5%"
 			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4058,7 +4058,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "R16")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4076,7 +4076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41f4f4db-f7fe-4e51-bf6d-916c1f2cb142")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 222.25 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,7 +4174,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4270,7 +4270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4717c9ee-b048-4402-bbf8-19bfde00f915")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 101.346 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,7 +4281,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "43k"
 			(at 101.6 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4314,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "43 kΩ ±5%"
 			(at 106.68 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4345,7 +4345,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4833,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5885ea60-9477-44db-9599-e063114f7fbf")
-		(property "Reference" "U11"
+		(property "Reference" "U4"
 			(at 247.65 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4949,7 +4949,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "U11")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5166,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF, 16 V, X5R/X7R, 0603"
 			(at 264.16 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5370,7 +5370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b50c111-a62b-4005-9f4c-05f7d38d5e04")
-		(property "Reference" "R19"
+		(property "Reference" "R10"
 			(at 150.368 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5381,7 +5381,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "20"
 			(at 150.368 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,7 +5414,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "20 Ω ±5%"
 			(at 152.4 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5445,7 +5445,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "R19")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5462,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3aecf53-01f0-4677-8e07-f599bfc3028b")
-		(property "Reference" "C15"
+		(property "Reference" "C6"
 			(at 132.08 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +5504,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF, 16 V, X5R/X7R, 0603"
 			(at 132.08 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5535,7 +5535,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "C15")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a77f6107-d372-4c0e-a888-fdc950428b2a")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 224.028 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,7 +5596,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 kΩ ±5%"
 			(at 228.6 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +5627,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5880,7 +5880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c75d8130-12d5-4b97-91f5-431f90d2049d")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 59.944 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5891,7 +5891,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "43k"
 			(at 59.69 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5924,7 +5924,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "43 kΩ ±5%"
 			(at 57.15 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5955,7 +5955,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5973,7 +5973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad4e765-d770-4722-b54b-d4078027a771")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 82.55 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5993,7 +5993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:UMLP12_1P8X1P8_ONS"
+		(property "Footprint" "Project:UMLP12_1P8X1P8_ONS_WIDE"
 			(at 57.15 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6017,7 +6017,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3:1 High-Speed USB 2.0 Switch / Multiplexer"
 			(at 57.15 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6100,7 +6100,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "U9")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccce30d5-b243-4962-9f1a-4c0edeb93a91")
-		(property "Reference" "C14"
+		(property "Reference" "C8"
 			(at 100.33 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6159,7 +6159,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF, 16 V, X5R/X7R, 0603"
 			(at 101.6 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6190,7 +6190,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "C14")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6207,7 +6207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d52b29ea-789d-4e27-802d-8570b1e28c3e")
-		(property "Reference" "C13"
+		(property "Reference" "C5"
 			(at 238.76 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6217,7 +6217,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "1µF"
 			(at 239.268 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6249,7 +6249,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF, 0603, 6.3 V or 10 V, X5R/X7R"
 			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6280,7 +6280,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(reference "C13")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6833,7 +6833,7 @@
 		(instances
 			(project "kvm"
 				(path "/cc44720a-6cf8-4c9b-bc7b-e264add30336"
-					(page "7")
+					(page "5")
 				)
 			)
 		)

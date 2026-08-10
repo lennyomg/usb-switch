@@ -1,0 +1,6 @@
+(version 1)
+(rule "USB data clearance from L1 GND pour"
+    (layer F.Cu)
+    (condition "(A.Type == 'Track' && A.hasNetclass('DATA') && B.Type == 'Zone' && B.NetName == 'GND') || (B.Type == 'Track' && B.hasNetclass('DATA') && A.Type == 'Zone' && A.NetName == 'GND')")
+    (constraint clearance (min 0.75mm))
+)

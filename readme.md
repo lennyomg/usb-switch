@@ -17,15 +17,7 @@ Check [Releases](https://github.com/lennyomg/usb-switch/releases/latest) for Ger
 
 ### Details
 
-The board contains:
-* [ATtiny 1624](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) running CircuitPython to control the board
-* [TS3USB30](https://www.ti.com/lit/ds/symlink/ts3usb30e.pdf) for switching the USB data lines
-* [LM3526](https://www.ti.com/lit/ds/symlink/lm3526.pdf) for switching the USB power line
-* a built-in button with an optional 2.54 mm header for an external wired button
-* a 2.54 mm header exposing SPI pins that can also be used as digital or analog I/O for external modules
-* ESD and surge protection
-* non-programmable green LEDs that indicate the selected port
-* a piezo buzzer for playing your favorite tunes
+TODO
 
 ### Application
 

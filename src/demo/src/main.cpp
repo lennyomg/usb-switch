@@ -1,3 +1,6 @@
+// Copyright (c) 2026 Leonid R.
+// SPDX-License-Identifier: MIT
+
 #include <Arduino.h>
 #include <Bounce2.h>
 #include <EEPROM.h>

@@ -5,11 +5,13 @@
 	(uuid "cc44720a-6cf8-4c9b-bc7b-e264add30336")
 	(paper "A4")
 	(title_block
-		(title "USB SWITCH")
-		(date "2026-03-15")
-		(rev "1")
+		(title "Programmable USB Switch")
+		(date "2026-09-20")
+		(rev "3")
 		(company "Leonid R.")
-		(comment 1 "https://github.com/lennyomg/usb-switch")
+		(comment 1 "Copyright © 2026 Leonid R.")
+		(comment 2 "Hardware licensed for noncommercial use only ")
+		(comment 3 "https://github.com/lennyomg/usb-switch")
 	)
 	(lib_symbols
 		(symbol "Device:C"

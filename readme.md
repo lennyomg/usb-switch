@@ -21,7 +21,3 @@ Check the [assembly guide](ASSEMBLY-GUIDE.md) and [dev notes](DEV-NOTES.md). Ger
 ### Application
 
 This is primarily designed as a wired or wireless remote control for USB switching. I added an external [433MHz radio garage door opener receiver](https://www.amazon.com/dp/B09P89RF8R) module and now I can switch between two wireless CarPlay adapters using my car HomeLink garage opener button.
-
-### License
-
-Hardware design files are licensed under the CERN-OHL-P-2.0 license. Source code files are licensed under the MIT license. This project is provided “as is”, without warranty of any kind.

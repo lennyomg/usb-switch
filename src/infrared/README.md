@@ -1,0 +1,1 @@
+This sample uses an [Adafruit IR receiver](https://www.adafruit.com/product/5990) connected to PA1 to select a USB port with a generic remote. To learn a remote button, first select a port with the built-in button. Then hold the built-in button and press the button on the remote. The LED indicates IR reception. The selected port is saved to EEPROM and restored on startup.

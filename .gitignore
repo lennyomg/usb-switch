@@ -18,6 +18,13 @@ __pycache__/
 *.pyd
 .venv/
 
+#pio
+src/**/.pio
+src/**/.vscode/.browse.c_cpp.db*
+src/**/.vscode/c_cpp_*.json
+src/**/.vscode/launch.json
+src/**/.vscode/ipch
+
 #Misc
 *.zip
 kvm.csv

@@ -1,0 +1,1 @@
+This sample uses a momentary push button connected to the button input to select the USB port. Each press switches between port 1 and port 2. The selected port is saved to EEPROM and restored on startup. The sample also works with a wired push button.

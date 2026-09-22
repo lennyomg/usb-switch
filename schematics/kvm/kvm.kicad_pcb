@@ -1388,7 +1388,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "7" "8")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.77 -1.77)
@@ -5258,7 +5258,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Tactile Push Button, 6x6x4.3"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5277,6 +5277,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1a95e31-4577-4b2f-b690-419c7115879d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "2223-TS02-66-43-BK-160-LCR-D-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83a7c889-84e8-4a6e-95aa-16de5e0b4f29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TS02-66-43-BK-160-LCR-D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "143f2201-4a32-48b2-9032-e950b81abba1")
 			(effects
 				(font
 					(size 1 1)
@@ -11693,7 +11719,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.77 -1.77)

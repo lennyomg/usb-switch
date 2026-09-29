@@ -1,1 +1,0 @@
-This sample uses the built-in button or any of the four extension inputs to select the USB port. Each button press or rising signal on an extension input switches between port 1 and port 2. The selected port is saved to EEPROM and restored on startup. The buzzer plays a different tune for each selected port.

@@ -1,0 +1,1 @@
+This firmware is used to test an assembled board. On startup, the LED flashes five times and the buzzer plays three tones. Extension input 1 turns both USB ports off, input 2 selects port 1, and input 3 selects port 2. The built-in button or extension input 4 switches between ports 1 and 2. Each action plays a tone, and the LED remains on while both ports are off.

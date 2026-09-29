@@ -2,7 +2,7 @@
 
 ## Firmware
 
-* The PlatformIO project for ATtiny1624 is in the `src/attiny` folder. Additional examples are available in `src/samples`.
+* Firmware source code is for Platform IO.
 
 * Follow the assembly guide to install USB drivers. Update `upload_port` in `platformio.ini` accordingly.
 

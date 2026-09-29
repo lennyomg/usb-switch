@@ -16,8 +16,10 @@ The board is powered by an ATtiny1624, which controls FSUSB63UMX for switching U
 * a piezo speaker
 * 2.54 mm header with 3.3 V, GND, and four GPIO/SPI pins
 
-Check the [assembly guide](ASSEMBLY-GUIDE.md) and [dev notes](DEV-NOTES.md). Gerber files, BOM, STLs, schematic can be found in [releases](https://github.com/lennyomg/usb-switch/releases/latest).
+Check the [assembly guide](ASSEMBLY-GUIDE.md) and [dev notes](DEV-NOTES.md) for more details. Gerber files, BOM, STLs, and schematics can be found in [releases](https://github.com/lennyomg/usb-switch/releases/latest).
+
+The `src` folder contains firmware examples built with PlatformIO.
 
 ### Application
 
-This is primarily designed as a wired or wireless remote control for USB switching. I added an external [433MHz radio garage door opener receiver](https://www.amazon.com/dp/B09P89RF8R) module and now I can switch between two wireless CarPlay adapters using my car HomeLink garage opener button.
+This is primarily designed as a wired or wireless remote control for USB switching. For example, I added an external [433MHz radio garage door opener receiver](https://www.amazon.com/dp/B09P89RF8R) module and now I can switch between two wireless CarPlay adapters using my car HomeLink garage opener button.

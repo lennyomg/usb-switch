@@ -4,6 +4,8 @@ This is a programmable USB 2.0 switch that connects one of two USB devices to a 
 
 This device is not a USB hub, neither logically nor internally. The switch is unidirectional: it cannot switch a single USB peripheral between two USB hosts.
 
+<img width="848" height="385" alt="image" src="https://github.com/user-attachments/assets/97012316-2e0e-46c1-a66a-c84b92feb5e0" />
+
 ### Technical details
 
 The board is powered by an ATtiny1624, which controls FSUSB63UMX for switching USB data and TPS2066C for switching USB power. The board includes:

@@ -2,6 +2,9 @@
 
 This is how to build, print, flash, and assemble this project. Check [releases](https://github.com/lennyomg/usb-switch/releases/latest) for manufacturing files.
 
+<img width="1500" height="1125" alt="image" src="https://github.com/user-attachments/assets/844c571f-c0c6-4f61-b146-436f7a7543de" />
+
+
 ## Board
 
 Order a 4-layer PCB using the attached Gerber and drill files. Add a stencil to your order if possible. A rework station or hot plate is required to assemble the board, the USB mux is too small for a soldering iron.

@@ -22,8 +22,14 @@ Check the [assembly guide](ASSEMBLY-GUIDE.md) and [dev notes](DEV-NOTES.md) for 
 
 The `src` folder contains firmware examples built with PlatformIO.
 
-### Application
+### Applications
 
-This is primarily designed as a wired or wireless remote control for USB switching. For example, I added an external [433MHz radio garage door opener receiver](https://www.amazon.com/dp/B09P89RF8R) module and now I can switch between two wireless CarPlay adapters using my car HomeLink garage opener button.
+Possible applications include:
+* Delayed USB connection
+* Independent USB data and power control
+* Wired and wireless remote control
+* External control and automation
+
+For example, I connected an external [433 MHz RF receiver module](https://www.amazon.com/dp/B09P89RF8R), allowing me to switch between two wireless CarPlay adapters using my car's built-in HomeLink button.
 
 <img width="1500" height="1125" alt="IMG_4333" src="https://github.com/user-attachments/assets/a510177e-5608-4652-bebb-dd5b3e209877" />
